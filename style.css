@@ -3,7 +3,7 @@
   padding: 0 0;
 }
 h1 {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 900;
 }
 p {
@@ -14,6 +14,16 @@ h2 {
   font-size: 30px;
   font-weight: 900;
 }
+.simple-button {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #fba24f, #ff1e1e);
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-weight: 500;
+}
+/* First section ---------------------- */
 .first-section {
   display: flex;
   padding: 10px 100px 0 100px;
@@ -32,15 +42,7 @@ h2 {
   margin: 50px 0px;
   color: gray;
 }
-.simple-button {
-  font-size: 25px;
-  text-decoration: none;
-  color: white;
-  background-image: linear-gradient(to right, #fba24f, #ff1e1e);
-  padding: 15px 20px;
-  border-radius: 30px;
-  font-weight: 500;
-}
+
 .orange-text {
   color: #fc8f49;
 }
@@ -73,9 +75,13 @@ h2 {
   font-size: 20px;
   font-weight: 400;
 }
+/* third Section ------------------ */
 .third-section {
   font-family: 'Montserrat', sans-serif;
-  padding: 0 100px;
+  padding: 50px 100px;
+}
+.third-section h2 , .third-section  p{
+  text-align: center;
 }
 .recipie-cards {
   display: flex;
@@ -84,10 +90,95 @@ h2 {
 .recipies {
   width: 30%;
   margin: 10px;
+  padding-bottom: 10px;
   border: 20px solid white;
-  border-radius: 50px;
+  border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .recipies img {
   width: 100%;
+}
+.recipies h2{
+  text-align: left;
+}
+.recipies p{
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.statics{
+  margin-top: 100px;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+}
+.statics-cards{
+  width: 33.33%;
+ text-align: center;
+ padding-bottom: 50px;
+}
+.statics-cards h1 {
+ margin-bottom: 0px ;
+}
+.read-button {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #fba24f, #ff1e1e);
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-weight: 400;
+}
+/* Join Now Section --------- */
+.input-container{
+  padding: 0px 450px;
+  
+}
+.email-sub{
+  position: relative;
+  width: 100%;
+  background-image: url(images/food/Project\ Cover4.png);
+  border-radius: 20px;
+  color: white;
+  padding: 20px 0px;
+margin: 40px 0; 
+}
+
+.email-sub-input{
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  padding: 10px 100px 10px 20px; 
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+}
+.email-sub-button{
+  position: absolute;
+  right: 453px; 
+  top: 158px;
+  bottom: 23px;
+  border: 0;
+  background-image:  linear-gradient(to right, #fba24f, #ff1e1e);
+  color: #fff;
+  outline: none;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 100px;
+  z-index: 2;
+}
+
+
+/*---------- Footer--------------------- */
+footer{
+  background-color: black;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 30px 0  50px 0 ;
+  text-align: center;
+}
+footer h3 {
+ margin-top: 0px;
+  color: dimgrey;
 }
