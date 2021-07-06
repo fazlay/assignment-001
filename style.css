@@ -144,9 +144,7 @@ h2 {
   text-align: center;
 }
 .left-quote{
-  margin: 0;
-  padding: 0;
-  display: block;
+ display: block;
  font-size: 80px;
  height: 20px;
 }
