@@ -1,10 +1,11 @@
-
 body {
   margin: 0 0;
   padding: 0 0;
 }
-body,button,input, h1, h2, h3, p,a, small,footer {
-  font-family: 'Montserrat', sans-serif ;
+body,
+button,
+input {
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -28,18 +29,28 @@ h2 {
   border-radius: 30px;
   font-weight: 500;
 }
+.orange-text {
+  color: #fc8f49;
+}
+.text-center {
+  text-align: center;
+}
+
+.primary-padding{
+  padding: 50px 100px
+}
+
 /* First section ---------------------- */
 .first-section {
   display: flex;
   padding: 10px 100px 0 100px;
-  /* font-family: 'Montserrat', sans-serif; */
 }
 .top-left-section {
   padding-top: 150px;
   width: 50%;
 }
 .top-left-section h1 {
-  color:dimgrey;
+  color: dimgrey;
   margin: 0;
   padding: 5px 0;
 }
@@ -48,12 +59,9 @@ h2 {
   color: dimgrey;
 }
 
-.orange-text {
-  color: #fc8f49;
-}
 .secound-section {
   display: flex;
-  /* font-family: 'Montserrat', sans-serif; */
+
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -81,14 +89,7 @@ h2 {
   font-weight: 400;
 }
 /* third Section ------------------ */
-.third-section {
-  /* font-family: 'Montserrat', sans-serif; */
-  padding: 50px 100px;
-}
-.third-section h2,
-.third-section p {
-  text-align: center;
-}
+
 .recipie-cards {
   display: flex;
 }
@@ -136,27 +137,18 @@ h2 {
   font-weight: 400;
 }
 
-.testimonials{
-  /* font-family: 'Montserrat', sans-serif; */
-  padding: 50px 100px;
-}
-.testimonials h2{
-  text-align: center;
-}
-.left-quote{
- display: block;
- font-size: 80px;
- height: 20px;
+
+.left-quote {
+  display: block;
+  font-size: 80px;
+  height: 20px;
 }
 .review {
   padding-left: 30px;
   text-align: left;
 }
 /* join mail  csss---------------------- */
-.join-mail{
-  padding: 50px 100px;
-  text-align: center;
-}
+
 .input-container {
   padding: 0px 450px;
 }
@@ -175,7 +167,7 @@ h2 {
   border: 1px solid #ccc;
   border-radius: 100px;
   padding: 10px 100px 10px 20px;
-  line-height: 1;
+  line-height: 2;
   box-sizing: border-box;
   outline: none;
 }
@@ -197,7 +189,6 @@ h2 {
 footer {
   background-color: black;
   color: white;
-  /* font-family: 'Montserrat', sans-serif; */
   padding: 30px 0 50px 0;
   text-align: center;
 }
