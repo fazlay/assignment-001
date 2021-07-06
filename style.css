@@ -13,7 +13,7 @@ h1 {
   font-weight: 900;
 }
 p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
 }
 h2 {
@@ -36,8 +36,8 @@ h2 {
   text-align: center;
 }
 
-.primary-padding{
-  padding: 50px 100px
+.primary-padding {
+  padding: 50px 100px;
 }
 
 /* First section ---------------------- */
@@ -58,7 +58,7 @@ h2 {
   margin: 50px 0px;
   color: dimgrey;
 }
-
+/* secound section--------------------- */
 .secound-section {
   display: flex;
 
@@ -70,19 +70,21 @@ h2 {
   width: 50%;
 }
 .secound-right-section {
-  padding-top: 130px;
+  padding-top: 100px;
   width: 50%;
 }
 .secound-left-section img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 550px;
+  padding-top: 20px;
+  /* padding-left: 50px; */
+  height: 500px;
 }
 
 .secound-right-section p {
   padding-top: 10px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   width: 70%;
   line-height: 1.6;
   font-size: 20px;
@@ -110,9 +112,10 @@ h2 {
 }
 .recipies p {
   text-align: left;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.6;
 }
+/* Social Media Div-------------- */
 .statics {
   margin-top: 100px;
   border-radius: 20px;
@@ -127,6 +130,7 @@ h2 {
 .statics-cards h1 {
   margin-bottom: 0px;
 }
+
 .read-button {
   font-size: 15px;
   text-decoration: none;
@@ -136,8 +140,7 @@ h2 {
   border-radius: 30px;
   font-weight: 400;
 }
-
-
+/* Review Div-------------- */
 .left-quote {
   display: block;
   font-size: 80px;
@@ -174,7 +177,7 @@ h2 {
 .email-sub-button {
   position: absolute;
   right: 453px;
-  top: 158px;
+  top: 130px;
   bottom: 23px;
   border: 0;
   background-image: linear-gradient(to right, #fba24f, #ff1e1e);
