@@ -2,6 +2,8 @@
 body {
   margin: 0 0;
   padding: 0 0;
+}
+body,button,input, h1, h2, h3, p,a, small,footer {
   font-family: 'Montserrat', sans-serif ;
 }
 
@@ -37,13 +39,13 @@ h2 {
   width: 50%;
 }
 .top-left-section h1 {
-  color: gray;
+  color:dimgrey;
   margin: 0;
   padding: 5px 0;
 }
 .top-left-section p {
   margin: 50px 0px;
-  color: gray;
+  color: dimgrey;
 }
 
 .orange-text {
@@ -133,7 +135,30 @@ h2 {
   border-radius: 30px;
   font-weight: 400;
 }
-/* Join Now Section --------- */
+
+.testimonials{
+  /* font-family: 'Montserrat', sans-serif; */
+  padding: 50px 100px;
+}
+.testimonials h2{
+  text-align: center;
+}
+.left-quote{
+  margin: 0;
+  padding: 0;
+  display: block;
+ font-size: 80px;
+ height: 20px;
+}
+.review {
+  padding-left: 30px;
+  text-align: left;
+}
+/* join mail  csss---------------------- */
+.join-mail{
+  padding: 50px 100px;
+  text-align: center;
+}
 .input-container {
   padding: 0px 450px;
 }
@@ -170,7 +195,6 @@ h2 {
   border-radius: 100px;
   z-index: 2;
 }
-
 /*---------- Footer--------------------- */
 footer {
   background-color: black;
