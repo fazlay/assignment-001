@@ -1,7 +1,10 @@
-.body {
+
+body {
   margin: 0 0;
   padding: 0 0;
+  font-family: 'Montserrat', sans-serif ;
 }
+
 h1 {
   font-size: 60px;
   font-weight: 900;
@@ -27,7 +30,7 @@ h2 {
 .first-section {
   display: flex;
   padding: 10px 100px 0 100px;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 .top-left-section {
   padding-top: 150px;
@@ -48,7 +51,7 @@ h2 {
 }
 .secound-section {
   display: flex;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -77,10 +80,11 @@ h2 {
 }
 /* third Section ------------------ */
 .third-section {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   padding: 50px 100px;
 }
-.third-section h2 , .third-section  p{
+.third-section h2,
+.third-section p {
   text-align: center;
 }
 .recipie-cards {
@@ -98,28 +102,27 @@ h2 {
 .recipies img {
   width: 100%;
 }
-.recipies h2{
+.recipies h2 {
   text-align: left;
 }
-.recipies p{
+.recipies p {
   text-align: left;
   font-size: 20px;
   line-height: 1.6;
 }
-.statics{
+.statics {
   margin-top: 100px;
   border-radius: 20px;
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
- 
 }
-.statics-cards{
+.statics-cards {
   width: 33.33%;
- text-align: center;
- padding-bottom: 50px;
+  text-align: center;
+  padding-bottom: 50px;
 }
 .statics-cards h1 {
- margin-bottom: 0px ;
+  margin-bottom: 0px;
 }
 .read-button {
   font-size: 15px;
@@ -131,36 +134,35 @@ h2 {
   font-weight: 400;
 }
 /* Join Now Section --------- */
-.input-container{
+.input-container {
   padding: 0px 450px;
-  
 }
-.email-sub{
+.email-sub {
   position: relative;
   width: 100%;
   background-image: url(images/food/Project\ Cover4.png);
   border-radius: 20px;
   color: white;
   padding: 20px 0px;
-margin: 40px 0; 
+  margin: 40px 0;
 }
 
-.email-sub-input{
+.email-sub-input {
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 100px;
-  padding: 10px 100px 10px 20px; 
+  padding: 10px 100px 10px 20px;
   line-height: 1;
   box-sizing: border-box;
   outline: none;
 }
-.email-sub-button{
+.email-sub-button {
   position: absolute;
-  right: 453px; 
+  right: 453px;
   top: 158px;
   bottom: 23px;
   border: 0;
-  background-image:  linear-gradient(to right, #fba24f, #ff1e1e);
+  background-image: linear-gradient(to right, #fba24f, #ff1e1e);
   color: #fff;
   outline: none;
   margin: 0;
@@ -169,16 +171,15 @@ margin: 40px 0;
   z-index: 2;
 }
 
-
 /*---------- Footer--------------------- */
-footer{
+footer {
   background-color: black;
   color: white;
-  font-family: 'Montserrat', sans-serif;
-  padding: 30px 0  50px 0 ;
+  /* font-family: 'Montserrat', sans-serif; */
+  padding: 30px 0 50px 0;
   text-align: center;
 }
 footer h3 {
- margin-top: 0px;
+  margin-top: 0px;
   color: dimgrey;
 }
